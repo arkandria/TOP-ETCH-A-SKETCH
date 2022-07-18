@@ -1,0 +1,18 @@
+.container {
+    width: 960px;
+    height:960px;
+    display: flex;
+    border-style: solid;
+    flex-wrap: wrap;
+    
+    }
+.pixel {
+    border-top: solid;
+    border-left: solid;
+    border-width: 0.5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 58px;
+    height: 58px;
+    
+}
