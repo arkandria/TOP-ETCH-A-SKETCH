@@ -6,7 +6,7 @@ let container = document.querySelector('.container');
         pixel.classList.add('pixel');
         container.appendChild(pixel);
         pixel.addEventListener("mouseover", () => {
-            pixel.style.backgroundColor = 'black';
+            pixel.style.backgroundColor = 'rgb(18, 115, 194)';
        } );
     }
  let  numberRows;
@@ -25,11 +25,11 @@ resetBtn.addEventListener('click', () => {
             const pixel = document.createElement('div');
             pixel.classList.add('pixel');
             container.appendChild(pixel);
-            let size = (960/numberRows)-2 + "px";
+            let size = (960/numberRows) + "px";
             pixel.style.width = size;
             pixel.style.height = size;
             pixel.addEventListener("mouseover", () => {
-                pixel.style.backgroundColor = 'black';
+                pixel.style.backgroundColor = "rgb(18, 115, 194)";
         } );
         }
     }
